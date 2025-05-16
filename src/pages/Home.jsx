@@ -1,4 +1,4 @@
-import { Navbar, StarBackground, ThemeToggle, HeroSection } from "@/components"
+import { Navbar, StarBackground, ThemeToggle, HeroSection, AboutSection, SkillsSection } from "@/components"
 
 export const Home = () => {
     return <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
@@ -15,8 +15,8 @@ export const Home = () => {
         <main>
             {/* Hero */}
             <HeroSection />
-
-
+            <AboutSection />
+            <SkillsSection />
         </main>
 
         {/* Footer */}
