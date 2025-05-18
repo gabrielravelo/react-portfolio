@@ -1,9 +1,13 @@
 
 
+export * from './AboutSection';
+export * from './ContactSection';
+export * from './Footer';
+export * from './HeroSection';
 export * from './Navbar';
+export * from './ProjectSection';
+export * from './SkillsSection';
 export * from './StarBackground';
 export * from './ThemeToggle';
-export * from './HeroSection';
-export * from './AboutSection';
-export * from './SkillsSection';
+
 
